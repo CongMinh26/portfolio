@@ -1,8 +1,18 @@
 import React from 'react'
-
+import { About, Header, Footer, Skills, Testimonial, Work } from './container/index';
+import { Navbar } from './components';
+import './App.scss'
 const App = () => {
   return (
-    <div>Nguyễn Công Minh</div>
+    <div className='app'>
+      <Navbar />
+      <Header />
+      <About />
+      <Work />
+      <Skills />
+      <Testimonial />
+      <Footer />
+    </div>
   )
 }
 

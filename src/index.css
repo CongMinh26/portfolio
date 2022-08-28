@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
 
 :root {
-  --font-base: "DM Sans", sans-serif;
+  --font-base: "Roboto", sans-serif;
   --primary-color: #edf2f8;
   --secondary-color: #313bac;
   --black-color: ☐#030303;
   --lightGray-color:#c4c4e4;
   --gray-color: #6b7688;
   --brown-color: #46364a;
-  --white-color: #ffffff:
+  --white-color: white;
 }
 
 * {
